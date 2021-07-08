@@ -42,10 +42,6 @@ export class Product {
 
   @BeforeInsert()
   generateSlug() {
-    if (this.slug) {
-      return;
-    }
-
     this.slug = slugify(this.name);
   }
 }
