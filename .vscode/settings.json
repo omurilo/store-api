@@ -15,5 +15,8 @@
     "titleBar.inactiveBackground": "#e0234e99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#e0234e"
+  "peacock.color": "#e0234e",
+  "conventionalCommits.scopes": [
+    "api"
+  ]
 }
